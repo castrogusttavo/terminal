@@ -1,6 +1,6 @@
 {
-  "name": "next-boilerplate",
-  "description": "A simple Next.js boilerplate",
+  "name": "waitlist",
+  "description": "code.dev waitlist",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -22,6 +22,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@houstonicons/pro": "0.2.2",
     "@tailwindcss/postcss": "4.1.4",
     "dotenv": "16.4.7",
     "fs": "0.0.1-security",

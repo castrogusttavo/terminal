@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme inline {
+	--font-sans: var(--font-geist);
+	--font-mono: var(--font-roboto-mono);
+}
+
+@theme {
+	--color-accent: #666;
+	--color-muted: #888;
+	--color-borders: #333;
+	--color-card: #111;
+	--color-hover: #222;
+	--color-focus: #ffffff1a;
+
+	--shadow-card: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
