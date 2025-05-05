@@ -29,17 +29,14 @@
     "@react-email/tailwind": "1.0.5",
     "@tailwindcss/postcss": "4.1.4",
     "dotenv": "16.4.7",
-    "fs": "0.0.1-security",
     "next": "15.3.1",
-    "path": "0.12.7",
     "postcss": "8.5.3",
-    "puppeteer": "24.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-email": "4.0.11",
     "resend": "4.5.0",
     "tailwindcss": "4.1.4",
-    "zod": "3.24.2"
+    "zod": "4.0.0-beta.20250505T012514"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
