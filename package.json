@@ -16,6 +16,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "email": "email dev",
     "lint": "deno run -A npm:@biomejs/biome lint --write",
     "format": "deno run -A npm:@biomejs/biome format --write",
     "format:check": "deno run -A npm:@biomejs/biome check --write",
@@ -23,6 +24,9 @@
   },
   "dependencies": {
     "@houstonicons/pro": "0.2.2",
+    "@react-email/components": "0.0.38",
+    "@react-email/render": "1.1.0",
+    "@react-email/tailwind": "1.0.5",
     "@tailwindcss/postcss": "4.1.4",
     "dotenv": "16.4.7",
     "fs": "0.0.1-security",
@@ -32,6 +36,8 @@
     "puppeteer": "24.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-email": "4.0.11",
+    "resend": "4.5.0",
     "tailwindcss": "4.1.4",
     "zod": "3.24.2"
   },

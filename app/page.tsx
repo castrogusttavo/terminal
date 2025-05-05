@@ -1,6 +1,7 @@
+import { TickIcon } from '@/app/components/TickIcon';
+import { WaitlistForm } from '@/app/components/WaitlistForm';
 import Image from 'next/image';
 import Link from 'next/link';
-import { TickIcon } from './components/TickIcon';
 
 export default function Home() {
   return (
@@ -22,14 +23,14 @@ export default function Home() {
                 <p className='wrap-break-word'>
                   Enviearemos um email mágico de confirmação.
                 </p>
-                {/* Formulário Waitlist */}
+                <WaitlistForm />
               </div>
             </div>
           </div>
         </section>
         <section className='mb-8 flex flex-col p-6 bg-card border border-borders rounded-lg shadow-[0_8px_16px_rgba(0,0,0,0.2)]'>
           <h2 className='text-xl mb-3.5 font-bold mt-6'>
-            <span className='text-accent mr-1'>$</span> code.dev --preview
+            <span className='text-accent mr-1'>$</span> plano --features
           </h2>
           <div className='flex flex-wrap gap-6 mt-4'>
             <div className='min-w-[230px] flex-1 flex flex-col items-center justify-center text-center bg-hover rounded-md border border-borders p-6'>
@@ -84,60 +85,78 @@ export default function Home() {
           <h2 className='text-xl mb-3.5 font-bold mt-6'>
             <span className='text-accent mr-1'>$</span> cat ~/newsletter
           </h2>
-          <div className='flex flex-col gap-1'>
-            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg shadow-[0_8px_16px_rgba(0,0,0,0.2)] gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
+          <div className='flex flex-col gap-1.5'>
+            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
               <Link
                 href={'https://castrogusttavo.vercel.app/introducing-code-dev'}
                 target={'_blank'}
               >
-                <button className='bg-black border border-borders text-white pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium pointer min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
+                <button className='bg-black border border-borders text-white cursor-pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
                   Ready
                 </button>
               </Link>
               <div className='flex-1'>
                 <h3 className='mt-5 mb-1 font-bold text-base'>
-                  Introducing code.dev
+                  Welcoming Gusttavo Castro, our new Software Developer
                 </h3>
                 <p className='m-0 leading-relaxed text-sm'>
-                  Why are we doing this? What problem are we solving? Why
-                  now?...
+                  We're thrilled to share the news that Gusttavo Castro is
+                  joining code.dev.
                 </p>
               </div>
             </div>
-            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg shadow-[0_8px_16px_rgba(0,0,0,0.2)] gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
+            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
               <Link
                 href={'https://castrogusttavo.vercel.app/introducing-code-dev'}
                 target={'_blank'}
               >
-                <button className='bg-black border border-borders text-white pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium pointer min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
+                <button className='bg-black border border-borders text-white cursor-pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
                   Ready
                 </button>
               </Link>
               <div className='flex-1'>
                 <h3 className='mt-5 mb-1 font-bold text-base'>
-                  Inside the System Design of code.dev
+                  git commit -m "first commit"
                 </h3>
                 <p className='m-0 leading-relaxed text-sm'>
-                  How does code.dev work? What are the challenges? What are the
-                  solutions?...
+                  Here's a behind-the-scenes look at the architecture of
+                  code.dev.
                 </p>
               </div>
             </div>
-            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg shadow-[0_8px_16px_rgba(0,0,0,0.2)] gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
+            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
               <Link
                 href={'https://castrogusttavo.vercel.app/introducing-code-dev'}
                 target={'_blank'}
               >
-                <button className='bg-black border border-borders text-white pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium pointer min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
+                <button className='bg-black border border-borders text-white cursor-pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
                   Ready
                 </button>
               </Link>
               <div className='flex-1'>
                 <h3 className='mt-5 mb-1 font-bold text-base'>
-                  How code.dev identifies you
+                  Engineering scalable IDs with IceBit
                 </h3>
                 <p className='m-0 leading-relaxed text-sm'>
-                  How do we know who you are? What is the magic behind it?...
+                  How we built a custom ID generation system.
+                </p>
+              </div>
+            </div>
+            <div className='flex flex-col md:flex-row p-6 items-center bg-card border border-borders rounded-lg gap-4 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-hover hover:border-accent'>
+              <Link
+                href={'https://castrogusttavo.vercel.app/introducing-code-dev'}
+                target={'_blank'}
+              >
+                <button className='bg-black border border-borders text-white cursor-pointer text-base py-2 px-3 text-center transition-all duration-200 rounded-sm font-medium min-w-[140px] shadow-[0_2px_4px_rgba(0,0,0,0.2)]'>
+                  Ready
+                </button>
+              </Link>
+              <div className='flex-1'>
+                <h3 className='mt-5 mb-1 font-bold text-base'>
+                  How code.dev uses Resend to handle waitlist emails
+                </h3>
+                <p className='m-0 leading-relaxed text-sm'>
+                  A sneak peek into how the emails for code.dev are built.
                 </p>
               </div>
             </div>
