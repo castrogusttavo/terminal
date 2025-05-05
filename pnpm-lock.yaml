@@ -57,8 +57,8 @@ importers:
         specifier: 4.1.4
         version: 4.1.4
       zod:
-        specifier: 3.24.2
-        version: 3.24.2
+        specifier: 3.24.4
+        version: 3.24.4
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -2071,8 +2071,8 @@ packages:
     resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
     engines: {node: '>=18'}
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.4:
+    resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
 
 snapshots:
 
@@ -2861,7 +2861,7 @@ snapshots:
     dependencies:
       devtools-protocol: 0.0.1425554
       mitt: 3.0.1
-      zod: 3.24.2
+      zod: 3.24.4
 
   cli-cursor@5.0.0:
     dependencies:
@@ -3938,4 +3938,4 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod@3.24.2: {}
+  zod@3.24.4: {}
