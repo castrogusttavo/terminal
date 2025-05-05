@@ -48,8 +48,8 @@ importers:
         specifier: 4.1.4
         version: 4.1.4
       zod:
-        specifier: 4.0.0-beta.20250505T012514
-        version: 4.0.0-beta.20250505T012514
+        specifier: 4.0.0-beta.20250505T195954
+        version: 4.0.0-beta.20250505T195954
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -840,8 +840,8 @@ packages:
   '@types/react@19.1.2':
     resolution: {integrity: sha512-oxLPMytKchWGbnQM9O7D67uPa9paTNxO7jVoNMXgkkErULBPhPARCfkKL9ytcIJJRGjbsVwW4ugJzyFFvm/Tiw==}
 
-  '@zod/core@0.11.4':
-    resolution: {integrity: sha512-ezfAaaxgjSXZw9sH5QJ4/uqFmg8PbwBFtdSlzz1OoXWcSUR4fj4meS491+lk9ZGxCymjJ/pbOSu7nzcxvHtG0g==}
+  '@zod/core@0.11.6':
+    resolution: {integrity: sha512-03Bv82fFSfjDAvMfdHHdGSS6SOJs0iCcJlWJv1kJHRtoTT02hZpyip/2Lk6oo4l4FtjuwTrsEQTwg/LD8I7dJA==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -1803,8 +1803,8 @@ packages:
     resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
     engines: {node: '>=18'}
 
-  zod@4.0.0-beta.20250505T012514:
-    resolution: {integrity: sha512-b9Oif/j2uIFuimTO3xqTZP71cfNcv49G7sSDF8wp4+MH2tSCDgRDy5RKEMbLtD0LTrmGznL/gYqqDW7U80PudA==}
+  zod@4.0.0-beta.20250505T195954:
+    resolution: {integrity: sha512-iB8WvxkobVIXMARvQu20fKvbS7mUTiYRpcD8OQV1xjRhxO0EEpYIRJBk6yfBzHAHEdOSDh3SxDITr5Eajr2vtg==}
 
 snapshots:
 
@@ -2448,7 +2448,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@zod/core@0.11.4': {}
+  '@zod/core@0.11.6': {}
 
   JSONStream@1.3.5:
     dependencies:
@@ -3366,6 +3366,6 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod@4.0.0-beta.20250505T012514:
+  zod@4.0.0-beta.20250505T195954:
     dependencies:
-      '@zod/core': 0.11.4
+      '@zod/core': 0.11.6
